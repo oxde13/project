@@ -1,0 +1,74 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    background: url('images.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 900px;
+}
+
+header {
+    background-color: hsl(272, 49%, 82%);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav a {
+    color: rgb(11, 3, 3);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Основная секция корзины */
+main {
+    padding: 20px;
+}
+
+#cart-items {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-total {
+    padding-top: 15px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(272, 49%, 82%);
+    color: #fff;
+}
+
+
+

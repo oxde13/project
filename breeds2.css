@@ -1,0 +1,55 @@
+/* Стили для страницы breed-info.html */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    background-color: hsl(272, 49%, 82%);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: hwb(0 6% 93%);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+.breed img {
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(272, 49%, 82%);
+    color: #fff;
+}
+
+button {
+    background-color: hwb(243 5% 7%);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
